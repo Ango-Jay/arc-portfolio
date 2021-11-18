@@ -1,0 +1,41 @@
+.about{
+ 
+
+  &-title{
+    margin-bottom: 0;
+    display: flex;
+    width: 300px;
+    align-self:center;
+    text-align: center;
+&-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+    &-line{
+      display: flex;
+      background-color: $primary-color;
+      color: $primary-color;
+      margin: 0;
+      width: 100px;
+      height: 0.5rem;
+      border-radius: 50px;
+      text-align: center;
+      align-self:center;
+    }
+   
+  }
+  &-skill-pill{
+    background-color:#fff;
+   border: 3px solid $primary-color;
+   color: $primary-color;
+   font-weight: 700;
+   font-size: 20px;
+   margin-top:2rem;
+   height: 4rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   width: 120px;
+  }
+}

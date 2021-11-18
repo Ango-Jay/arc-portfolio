@@ -1,0 +1,18 @@
+// Margins
+.mb-8 {
+  margin-bottom: 8rem !important;
+}
+.m-plenty{
+  @include respond(tab-port-sm) {
+    margin-top: 200px;
+  }
+
+}
+.no-margin{
+  margin: 0rem !important;
+} 
+
+// Scroll Reveal UX
+.load-hidden {
+  visibility: hidden;
+}

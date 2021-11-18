@@ -1,25 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 in CodeSandbox!" />
+  <NavBar />
+  <Home />
+  <Footer />
 </template>
 
 <script>
-import HelloWorldVue from "./components/HelloWorld.vue";
+import "./styles/main.scss";
+import "materialize-css/dist/css/materialize.min.css";
+import NavBar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
+import Home from "./views/Home.vue";
+
 export default {
   name: "App",
   components: {
-    HelloWorld: HelloWorldVue,
+    NavBar,
+    Home,
+    Footer,
   },
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
