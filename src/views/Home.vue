@@ -1,17 +1,16 @@
 <template>
   <div>
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
           <div class="hero">
             <div class="hero-title">
-              <h1 class="hero-title-text">Dami Owolabi</h1>
+              <h1 class="hero-title-text">
+                Dami <span style="color: #00461b">Owolabi</span>
+              </h1>
               <h3 class="hero-title-text-sub">Architect</h3>
               <hr class="hero-title-text-sub-line" />
             </div>
-            <button class="hero-button">know more</button>
+            <button class="hero-button">Know more</button>
           </div>
-        </div>
+  
         <div class="col s12 center-align">
           <div class="about">
             <div class="about-title-container">
@@ -61,8 +60,7 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+   
 </template>
 
 <script>

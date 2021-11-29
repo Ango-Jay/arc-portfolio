@@ -1,5 +1,7 @@
+
 .hero{
-  //background-image: url("/assets/pop.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("./assets/pece.jpg");
+
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,14 +11,16 @@
   &-title{
     text-align: left;
     margin-top: 8rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
     &-text{
-      color: #000;
+      color: #fff;
       padding-top:2rem;
       &-sub{
-        color: #000;
+        color: #fff;
         width: 50%;
         margin-bottom: 0;
-        margin-left: 1.5rem;
+        margin-left: 2.5rem;
         &-line{
           background-color: $primary-color;
           color: $primary-color;
@@ -28,6 +32,7 @@
     }
   }
  &-button{
+   
    background-color:#fff;
    border: 3px solid $primary-color;
    color: $primary-color;

@@ -20,4 +20,10 @@ export default {
   },
 };
 </script>
+<style lang="scss">
+#app {
+  color: #fff;
+  //background-color: #333;
+}
+</style>
 
