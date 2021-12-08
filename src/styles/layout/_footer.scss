@@ -1,5 +1,5 @@
 .footer {
-  background-color: $dark-grey;
+  background-color: #000;
   color: $white-color;
   padding: 1.5rem 0;
 
@@ -16,7 +16,7 @@
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
-      background-color: $dark-grey;
+      background-color: #000;
 
       &:hover,
       &:active {
@@ -31,7 +31,7 @@
     margin: 1rem auto;
     border: 0;
     width: 50%;
-    border-top: 2px solid grey;
+    border-top: 2px solid $primary-color;
   }
 }
 
@@ -59,7 +59,7 @@
 }
 
 .back-to-top i {
-  color: $white-color;
+  color: $primary-color;
   margin: 1rem 0 $default-font-size;
   transition: all 0.2s ease-in;
 

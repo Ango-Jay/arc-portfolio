@@ -22,14 +22,14 @@
         </button>
       </div>
     </div>
-
+    <div class="divider"></div>
     <div class="col s12 center-align">
       <div class="about scrollspy" id="about">
         <div class="about-title-container">
           <h1 class="about-title">About me</h1>
           <hr class="about-title-line" />
         </div>
-        <img class="profile-img" src="/assets/o.png" alt="dami" />
+        <!--  <img class="profile-img" src="/assets/a3.svg" alt="dami" />-->
         <p>
           My name is Damilare Owolabi. I am an Architect, 3D Visualizer, &
           Interior Designer.
@@ -46,22 +46,25 @@
       </div>
       <div class="mb-2">
         <h3 style="color: #00461b" class="about-skills-title">My Skills</h3>
-        <img
-          style="width: 100px; fill: #00461b"
-          src="/assets/a.svg"
-          alt="skills"
-        />
+        <div class="about-skills-flex">
+          <img
+            style="width: 100px"
+            class="about-skills-img"
+            src="/assets/a.svg"
+            alt="skills"
+          />
 
-        <div class="about-skills">
-          <SkillPill pillValue="AutoCAD" />
-          <SkillPill pillValue="ArchiCAD" />
-          <SkillPill pillValue="Revit" />
-          <SkillPill pillValue="Lumion" />
-          <SkillPill pillValue="Cinema4D" />
-          <SkillPill pillValue="Corona renderer" />
-          <SkillPill pillValue="Blender" />
-          <SkillPill pillValue="Photoshop" />
-          <SkillPill pillValue="AutoCAD" />
+          <div class="about-skills">
+            <SkillPill pillValue="AutoCAD" />
+            <SkillPill pillValue="ArchiCAD" />
+            <SkillPill pillValue="Revit" />
+            <SkillPill pillValue="Lumion" />
+            <SkillPill pillValue="Cinema4D" />
+            <SkillPill pillValue="Corona renderer" />
+            <SkillPill pillValue="Blender" />
+            <SkillPill pillValue="Photoshop" />
+            <SkillPill pillValue="AutoCAD" />
+          </div>
         </div>
       </div>
     </div>
@@ -78,7 +81,12 @@
           If you have a project I can help with, please get in touch and let's
           leave an imprint in society together.
         </p>
-        <button class="hero-button">Send an Email</button>
+        <button
+          style="border: 3px solid #000; color: #000; background-color: #00461b"
+          class="hero-button"
+        >
+          Send an&nbsp;<span style="color: #fff"> Email</span>
+        </button>
       </div>
     </div>
   </div>

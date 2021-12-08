@@ -1,5 +1,5 @@
 .about{
-color: #000;
+color: #fff;
 padding: 2rem;
 @include respond(phone){
   display: flex;
@@ -27,6 +27,7 @@ padding: 2rem;
       width: 100px;
       height: 0.5rem;
       border-radius: 50px;
+      border-color: $primary-color;
       text-align: center;
       align-self:center;
     }
@@ -41,16 +42,29 @@ padding: 2rem;
     &-title{
       color: #000;
     }
+    &-flex{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    &-img{
+      display:flex;
+      padding: 1rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      background-color: #fff;
+    }
   }
   &-skill-pill{
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     background-color:#fff;
    border: 3px solid $primary-color;
    color: $primary-color;
    font-weight: 700;
-   font-size: 20px;
    margin-top:2rem;
    height: 4rem;
    margin-left: 1rem;
@@ -59,6 +73,13 @@ padding: 2rem;
    &-txt{
      display: flex;
      font-size: 16px;
+     align-self: center;
+     justify-content: center;
    }
   }
+}
+
+.profile-img{
+  width: 250px;
+  margin-top: 2rem;
 }

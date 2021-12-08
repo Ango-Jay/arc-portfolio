@@ -1,7 +1,5 @@
 <template>
- 
   <Home />
-
 </template>
 
 <script>
@@ -19,7 +17,7 @@ export default {
 <style lang="scss">
 #app {
   color: #fff;
-  //background-color: #333;
+  background-color: #000;
 }
 </style>
 
