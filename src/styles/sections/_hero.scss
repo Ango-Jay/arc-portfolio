@@ -1,6 +1,6 @@
 
 .hero{
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("./assets/pece.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("./assets/hero-bg.jpg");
 
   height: 100vh;
   background-size: cover;
@@ -10,41 +10,101 @@
   text-align: left;
   &-title{
     text-align: left;
-    margin-top: 8rem;
     padding-right: 3rem;
     padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+   /* @include respond(phone){
+   
+    }*/
     &-text{
       color: #fff;
       padding-top:2rem;
+      font-size: 5.2rem;
+      transform: translateX(-100%);
+      opacity: 0;
+     animation: move 1.2s ease-in 0s 1 normal forwards;
+     
+      @include respond(phone){
+        margin-bottom: 1rem;
+      }
+      &-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 1rem;
+        &-span{
+          display: flex;
+        }
+      }
       &-sub{
+        display: flex;
+        align-self: center;
         color: #fff;
-        width: 50%;
-        margin-bottom: 0;
-        margin-left: 2.5rem;
-        &-line{
+        width: fit-content;
+        padding: 0 1.5rem;
+        border-bottom: 2px solid;
+        font-weight: 100;
+        opacity: 0;
+        animation: fade-in 5s ease 1.2s 1 normal forwards;
+        @include respond(phone){
+          margin-top: 0;
+        }
+
+        /*&-line{
           background-color: $primary-color;
           color: $primary-color;
           width: 170px;
           margin: 0rem;
           height: 1px;
-        }
+        }*/
       }
     }
   }
  &-button{
-   
-   background-color:#fff;
+   background-color:#000;
    border: 3px solid $primary-color;
    color: $primary-color;
    font-weight: 700;
    font-size: 20px;
    margin-top:2rem;
-   height: 4rem;
+   height: 5rem;
    margin-left: 1.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 &:hover{
-  background-color:$primary-color;
-color: #fff;
+  background-color:#ccc;
+color: $primary-color;
+border: 3px solid #fff;
+
 }
  }
 
+}
+a.about-link{
+  color: $primary-color;
+  font-size: 20px;
+}
+
+@keyframes move{
+  0%,
+  50%{
+   opacity: 1;
+  }
+  75%,
+  100%{
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes fade-in{
+  0%{opacity: 0;}
+  100%{
+    opacity: 1;
+  }
 }

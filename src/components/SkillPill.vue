@@ -1,6 +1,6 @@
 <template>
   <div class="about-skill-pill">
-    <p>{{ pillValue }}</p>
+    <p class="about-skill-pill-txt">{{ pillValue }}</p>
   </div>
 </template>
 

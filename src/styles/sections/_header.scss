@@ -1,3 +1,11 @@
 .navBar{
   background-color: #00461b;
 }
+ul.sidenav{
+//  margin-tops: 2rem;
+  height: 80vh;
+  width: 250px;
+}
+li.side{
+color: $primary-color !important;
+}

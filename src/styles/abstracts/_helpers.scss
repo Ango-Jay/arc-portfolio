@@ -11,7 +11,12 @@
 .no-margin{
   margin: 0rem !important;
 } 
-
+.mt-2{
+margin-top: 2rem;
+}
+.mb-2{
+  margin-bottom: 2rem;
+}
 // Scroll Reveal UX
 .load-hidden {
   visibility: hidden;
