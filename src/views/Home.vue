@@ -82,7 +82,11 @@
           leave an imprint in society together.
         </p>
         <button
-          style="border: 3px solid #000; color: #000; background-color: #00461b"
+          style="
+            border: 3px solid #121212;
+            color: #121212;
+            background-color: #00461b;
+          "
           class="hero-button"
         >
           Send an&nbsp;<span style="color: #fff"> Email</span>
