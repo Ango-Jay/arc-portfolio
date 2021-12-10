@@ -5,6 +5,9 @@
     flex-direction: row;
     align-items: stretch;
     justify-content: flex-start;
+    @include respond(phone){
+      padding: 0 4rem;
+    }
     &-sm{
     display: flex;
     flex-direction: column;

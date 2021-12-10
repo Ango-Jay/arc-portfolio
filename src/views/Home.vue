@@ -23,59 +23,57 @@
       </div>
     </div>
     <div class="divider"></div>
-    <div class="col s12 center-align">
+    <div class="about-container">
       <div class="about scrollspy" id="about">
         <div class="about-title-container">
           <h1 class="about-title">About me</h1>
           <hr class="about-title-line" />
         </div>
-        <!--  <img class="profile-img" src="/assets/a3.svg" alt="dami" />-->
-        <p>
-          My name is Damilare Owolabi. I am an Architect, 3D Visualizer, &
-          Interior Designer.
-        </p>
-        <p class="no-margin flow-text">
-          In my free time, I love learning new ways to improve my design,
-          because I mean the thrill in Architecture for me is basically the fact
-          that you can literally leave an imprint in society with your
-          designs... and I have to say that's the runners high for me... the
-          process when a random thought develops into an idea which then
-          develops into a design and it moves from laptop screen or paper sketch
-          into reality is something I deem truly divine...
-        </p>
-      </div>
-      <div class="mb-2">
-        <h3 style="color: #00461b" class="about-skills-title">My Skills</h3>
-        <img
-          style="width: 100px"
-          class="about-skills-img"
-          src="/assets/skill.png"
-          alt="skills"
-        />
-        <!--   <div class="about-skills-flex">
-          <img
-            style="width: 100px"
-            class="about-skills-img"
-            src="/assets/a.svg"
-            alt="skills"
-          />-->
-
-        <div class="about-skills">
-          <SkillPill pillValue="AutoCAD" />
-          <SkillPill pillValue="ArchiCAD" />
-          <SkillPill pillValue="Revit" />
-          <SkillPill pillValue="Lumion" />
-          <SkillPill pillValue="Cinema4D" />
-          <SkillPill pillValue="Corona renderer" />
-          <SkillPill pillValue="Blender" />
-          <SkillPill pillValue="Photoshop" />
-          <SkillPill pillValue="AutoCAD" />
+        <div class="about-content-container">
+          <div class="about-content-container-text">
+            <p>
+              My name is Damilare Owolabi. I am an Architect, 3D Visualizer, &
+              Interior Designer.
+            </p>
+            <p class="no-margin flow-text">
+              In my free time, I love learning new ways to improve my design,
+              because I mean the thrill in Architecture for me is basically the
+              fact that you can literally leave an imprint in society with your
+              designs... and I have to say that's the runners high for me... the
+              process when a random thought develops into an idea which then
+              develops into a design and it moves from laptop screen or paper
+              sketch into reality is something I deem truly divine...
+            </p>
+          </div>
+          <img class="profile-img" src="/assets/architect.svg" alt="dami" />
         </div>
-        <!--  </div>-->
+      </div>
+      <div>
+        <h3 style="color: #00461b" class="about-skills-title">My Skills</h3>
+        <div class="about-skills-content">
+          <img class="about-skills-img" src="/assets/skill.png" alt="skills" />
+
+          <div class="about-skills">
+            <SkillPill pillValue="AutoCAD" />
+            <SkillPill pillValue="ArchiCAD" />
+            <SkillPill pillValue="Revit" />
+            <SkillPill pillValue="Lumion" />
+            <SkillPill pillValue="Cinema4D" />
+            <SkillPill pillValue="Corona renderer" />
+            <SkillPill pillValue="Blender" />
+            <SkillPill pillValue="Photoshop" />
+            <SkillPill pillValue="AutoCAD" />
+          </div>
+          <img
+            class="about-skills-img-lg"
+            src="/assets/skill.png"
+            alt="skills"
+          />
+        </div>
       </div>
     </div>
 
-    <div class="col s12">
+    <div>
       <div id="projects" class="projects scrollspy">
         <h1 style="margin-bottom: 0rem">My Work</h1>
         <hr class="about-title-line" />
@@ -86,6 +84,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            margin-top: 2rem;
           "
         >
           <div class="projects-btn-container">
@@ -102,7 +101,7 @@
         <h1 class="contact-title">Contact</h1>
         <hr class="contact-line" />
 
-        <p>
+        <p class="contact-txt">
           If you have a project I can help with, please get in touch and let's
           leave an imprint in society together.
         </p>
@@ -111,6 +110,7 @@
             border: 3px solid #121212;
             color: #121212;
             background-color: #00461b;
+            margin-left: 0;
           "
           class="hero-button"
         >

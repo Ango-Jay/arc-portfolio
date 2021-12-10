@@ -67,4 +67,7 @@ a:hover {
 h3.hero-title-text-sub{
   font-family: 'Permanent Marker', sans-serif;;
   font-size: 4.2rem;
+  @include respond(tab-land){
+    font-size: 6.2rem;
+  }
 }
