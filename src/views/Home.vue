@@ -46,31 +46,56 @@
       </div>
       <div class="mb-2">
         <h3 style="color: #00461b" class="about-skills-title">My Skills</h3>
-        <div class="about-skills-flex">
+        <img
+          style="width: 100px"
+          class="about-skills-img"
+          src="/assets/skill.png"
+          alt="skills"
+        />
+        <!--   <div class="about-skills-flex">
           <img
             style="width: 100px"
             class="about-skills-img"
             src="/assets/a.svg"
             alt="skills"
-          />
+          />-->
 
-          <div class="about-skills">
-            <SkillPill pillValue="AutoCAD" />
-            <SkillPill pillValue="ArchiCAD" />
-            <SkillPill pillValue="Revit" />
-            <SkillPill pillValue="Lumion" />
-            <SkillPill pillValue="Cinema4D" />
-            <SkillPill pillValue="Corona renderer" />
-            <SkillPill pillValue="Blender" />
-            <SkillPill pillValue="Photoshop" />
-            <SkillPill pillValue="AutoCAD" />
-          </div>
+        <div class="about-skills">
+          <SkillPill pillValue="AutoCAD" />
+          <SkillPill pillValue="ArchiCAD" />
+          <SkillPill pillValue="Revit" />
+          <SkillPill pillValue="Lumion" />
+          <SkillPill pillValue="Cinema4D" />
+          <SkillPill pillValue="Corona renderer" />
+          <SkillPill pillValue="Blender" />
+          <SkillPill pillValue="Photoshop" />
+          <SkillPill pillValue="AutoCAD" />
         </div>
+        <!--  </div>-->
       </div>
     </div>
 
     <div class="col s12">
-      <div class="projects"></div>
+      <div id="projects" class="projects scrollspy">
+        <h1 style="margin-bottom: 0rem">My Work</h1>
+        <hr class="about-title-line" />
+
+        <div
+          style="
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          "
+        >
+          <div class="projects-btn-container">
+            <button style="margin: 0rem" class="hero-button">
+              <a href="#about" class="about-link">See more</a>
+            </button>
+          </div>
+          <Project />
+        </div>
+      </div>
     </div>
     <div class="col s12">
       <div class="contact scrollspy" id="contact">
@@ -101,6 +126,7 @@
 import NavBar from "../components/Navbar.vue";
 import Footer from "../components/Footer.vue";
 import SkillPill from "../components/SkillPill";
+import Project from "../components/Project";
 import M from "materialize-css/dist/js/materialize.min.js";
 
 export default {
@@ -109,6 +135,7 @@ export default {
     NavBar,
     SkillPill,
     Footer,
+    Project,
   },
   mounted() {
     M.AutoInit();

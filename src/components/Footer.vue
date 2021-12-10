@@ -12,17 +12,25 @@
 
       <div class="social-links">
         <a rel="noreferrer" href="https://twitter.com/jay_ango" target="_blank">
-          <i style="width: 30px" class="fa fa-twitter fa-inverse"></i>
+          <i
+            style="width: 30px"
+            class="fa fa-twitter fa-inverse"
+            aria="true"
+          ></i>
         </a>
         <a rel="noreferrer" href="angojeff433@gmail.com" target="_blank">
-          <i style="width: 30px" class="fa fa-envelope fa-envelope"></i>
+          <i style="width: 30px" class="fa fa-instagram" aria="true"></i>
         </a>
         <a
           rel="noreferrer"
           href="https://www.linkedin.com/in/jeffrey-ango-0b194b142"
           target="_blank"
         >
-          <i style="width: 30px" class="fa fa-linkedin fa-inverse"></i>
+          <i
+            style="width: 30px"
+            class="fa fa-linkedin fa-inverse"
+            aria="true"
+          ></i>
         </a>
       </div>
 

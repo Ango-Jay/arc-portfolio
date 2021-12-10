@@ -23,7 +23,6 @@ padding: 2rem;
       display: flex;
       background-color: $primary-color;
       color: $primary-color;
-      margin: 0;
       width: 100px;
       height: 0.5rem;
       border-radius: 50px;
@@ -39,6 +38,7 @@ padding: 2rem;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
     &-title{
       color: $dark-grey;
     }
@@ -52,16 +52,15 @@ padding: 2rem;
     &-img{
       display:flex;
       padding: 1rem;
-      margin-right: 2rem;
-      margin-left: 2rem;
-      background-color: #fff;
+      margin-right: auto;
+      margin-left: auto;
     }
   }
   &-skill-pill{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
-    background-color:#fff;
+    background-color:#000;
    border: 3px solid $primary-color;
    color: $primary-color;
    font-weight: 700;
