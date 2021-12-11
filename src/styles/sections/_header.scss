@@ -2,13 +2,24 @@
   background-color: $primary-color;
 }
 ul.sidenav{
-//  margin-tops: 2rem;
-  height: 80vh;
   width: 250px;
+  background-color: $light-grey;
+  color:#fff;
 }
-li.side{
-color: $primary-color !important;
+ul.sidenav li>a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    
 }
+.sidenav-close{
+ border: 3px solid $primary-color;
+   color: #fff;
+   padding:1rem;
+}
+
+
 [data-initials]:before{
   background-color:$dark-grey;
   color: #fff;
@@ -16,16 +27,27 @@ color: $primary-color !important;
 nav ul a{
   font-size: 16px;
 }
-a.logo-initials{
-  background-color: $dark-grey;
+.logo-initials{
   border-radius: 50%;
   padding: 1rem;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top:1rem;
-  margin-right:1rem;
-  color:$primary-color;
+  width: 50px;
+  height: 50px;
+  color:$dark-grey;
+  font-weight:900;
+  background-color:$primary-color;
+  display:flex !important;
+  align-items:center;
+  align-self:center;
+  justify-content:center;
+}
+li.logo-container{
+ display:flex;
+  align-items:center;
+   justify-content:center;
+   margin-top:2rem;
+}
+@media only screen and (min-height: 600px) {
+ul.sidenav{
+ height:60vh;
+}
 }

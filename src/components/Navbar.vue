@@ -2,7 +2,15 @@
   <div>
     <nav>
       <div class="nav-wrapper navBar">
-        <a href="#!" class="brand-logo right hide-on-large-only logo-initials"
+        <a
+          href="#!"
+          style="
+            border-radius: 50%;
+            background-color: #0f0f0f;
+            color: #004B16;
+            margin: 0.5rem 1rem;
+          "
+          class="brand-logo hide-on-med-and-down logo-initials"
           >DO</a
         >
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"
@@ -19,8 +27,13 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-      <li class="mt-2 side">
+      <!--  <li class="mt-2 side">
         <i style="fontsize: 42px" class="sidenav-close material-icons">close</i>
+      </li>-->
+      <li class="logo-container">
+        <h3 style="width: 80px; height: 80px" class="logo-initials">
+          D<span style="color: #fff">O</span>
+        </h3>
       </li>
       <li class="side">
         <a href="#home"

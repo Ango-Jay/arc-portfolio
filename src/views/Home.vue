@@ -131,11 +131,24 @@
 import NavBar from "../components/Navbar.vue";
 import Footer from "../components/Footer.vue";
 import SkillPill from "../components/SkillPill";
-import Project from "../components/Project";
 import M from "materialize-css/dist/js/materialize.min.js";
+import Project from "../components/Project";
+//const Project = () => ({
+//component: import("../components/Project"),
+// loading: LoadingComponent,
+//error: ErrorComponent,
+// The error component will be displayed if a timeout is
+// provided and exceeded. Default: Infinity.
+//timeout: 3000,
+//});
 
 export default {
   name: "Home",
+  data() {
+    return {
+      day: false,
+    };
+  },
   components: {
     NavBar,
     SkillPill,
