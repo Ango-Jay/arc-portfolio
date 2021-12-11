@@ -11,15 +11,16 @@
     &-sm{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
- 
+    justify-content: space-between;
+ flex-basis: 50%;
     }
   }
   &-div-sm{
     width: fit-content;
   } &-div-big{
-    width: fit-content;
- 
+
+ display: flex;
+ flex-basis: 50%;
   }
   &-img-big{
     width:100%;
@@ -28,6 +29,7 @@
   }
   &-img-sm{
     width:100%;
+    flex-grow: 2;
     
     
     

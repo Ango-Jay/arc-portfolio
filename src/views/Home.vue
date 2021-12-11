@@ -11,7 +11,12 @@
         <div class="hero-title-text-flex">
           <span class="hero-title-text-flex-span"
             ><img
-              style="width: 50px; height: 80px; margin-right: 0.5rem"
+              style="
+                width: 50px;
+                height: 80px;
+                margin-right: 0.5rem;
+                text-shadow: 1px 1px 2px #0f0f0f;
+              "
               src="/assets/col1.svg"
           /></span>
           <h3 class="hero-title-text-sub">Architect</h3>
