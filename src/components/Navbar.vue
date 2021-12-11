@@ -2,15 +2,7 @@
   <div>
     <nav>
       <div class="nav-wrapper navBar">
-        <a
-          href="#!"
-          style="
-            border-radius: 50%;
-            background-color: #0f0f0f;
-            color: #004B16;
-            margin: 0.5rem 1rem;
-          "
-          class="brand-logo hide-on-med-and-down logo-initials"
+        <a href="#!" class="brand-logo hide-on-med-and-down logo-initials-lg"
           >DO</a
         >
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"
