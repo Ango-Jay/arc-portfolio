@@ -58,7 +58,7 @@ color: #fff;
       justify-content: center;
       align-items: stretch;
       align-self: center;
-      @include respond(tab-land){
+      @include respond(tab-port){
         flex-direction: row;
       }
     }
@@ -75,7 +75,7 @@ color: #fff;
       padding: 1rem;
       margin-right: auto;
       margin-left: auto;
-      @include respond(tab-land){
+      @include respond(tab-port){
         display: none;
       }
       &-lg{
@@ -83,7 +83,7 @@ color: #fff;
         height: 200px;
         display: none;
         margin: 2rem;
-        @include respond(tab-land){
+        @include respond(tab-port){
           display: block;
 
         }
@@ -96,7 +96,7 @@ color: #fff;
     justify-content: center;
     align-items: stretch;
     &-text{
-      @include respond(tab-land){
+      @include respond(tab-port){
         max-width:700px;
       }
     }
@@ -126,7 +126,7 @@ color: #fff;
 .profile-img{
   width: 400px;
   display: none;
-  @include respond(tab-land){
+  @include respond(tab-port){
     display: block;
   }
 }

@@ -33,9 +33,9 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
   }
   // Table Portrait
   @if $breakpoint == tab-port {
-    @media (max-width: 56.25em) {
+    @media (min-width: 56.25em) {
       @content;
-    } //900px
+    } //900px >
   }
   // Table Landscape
   @if $breakpoint == tab-land {

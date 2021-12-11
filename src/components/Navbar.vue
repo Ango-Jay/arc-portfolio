@@ -2,11 +2,14 @@
   <div>
     <nav>
       <div class="nav-wrapper navBar">
-        <!-- <a href="#!" class="brand-logo">logo</a>-->
+        <a href="#!" class="brand-logo right hide-on-large-only logo-initials"
+          >DO</a
+        >
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"
           ><i class="material-icons">menu</i></a
         >
-        <ul class="right hide-on-med-and-down">
+
+        <ul class="right hide-on-med-and-down" style="margin-right: 2rem">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Project</a></li>
