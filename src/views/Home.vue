@@ -11,13 +11,14 @@
         <div class="hero-title-text-flex">
           <span class="hero-title-text-flex-span"
             ><img
+              v-lazyload
               style="
                 width: 50px;
                 height: 80px;
                 margin-right: 0.5rem;
                 text-shadow: 1px 1px 2px #0f0f0f;
               "
-              src="/assets/col1.svg"
+              data-img-url="/assets/col1.svg"
           /></span>
           <h3 class="hero-title-text-sub">Architect</h3>
         </div>
@@ -50,13 +51,23 @@
               sketch into reality is something I deem truly divine...
             </p>
           </div>
-          <img class="profile-img" src="/assets/architect.svg" alt="dami" />
+          <img
+            v-lazyload
+            class="profile-img"
+            data-img-url="/assets/architect.svg"
+            alt="dami"
+          />
         </div>
       </div>
       <div>
         <h3 style="color: #00461b" class="about-skills-title">My Skills</h3>
         <div class="about-skills-content">
-          <img class="about-skills-img" src="/assets/skill.png" alt="skills" />
+          <img
+            v-lazyload
+            class="about-skills-img"
+            data-img-url="/assets/skill.png"
+            alt="skills"
+          />
 
           <div class="about-skills">
             <SkillPill pillValue="AutoCAD" />
@@ -70,8 +81,9 @@
             <SkillPill pillValue="AutoCAD" />
           </div>
           <img
+            v-lazyload
             class="about-skills-img-lg"
-            src="/assets/skill.png"
+            data-img-url="/assets/skill.png"
             alt="skills"
           />
         </div>
