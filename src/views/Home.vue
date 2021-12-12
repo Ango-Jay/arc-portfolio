@@ -54,7 +54,7 @@
           <img
             v-lazyload
             class="profile-img"
-            data-img-url="/assets/architect.svg"
+            data-img-url="/img/architect.svg"
             alt="dami"
           />
         </div>
@@ -65,7 +65,7 @@
           <img
             v-lazyload
             class="about-skills-img"
-            data-img-url="/assets/skill.png"
+            data-img-url="/img/skill.png"
             alt="skills"
           />
 
@@ -83,7 +83,7 @@
           <img
             v-lazyload
             class="about-skills-img-lg"
-            data-img-url="/assets/skill.png"
+            data-img-url="/img/skill.png"
             alt="skills"
           />
         </div>
@@ -145,6 +145,7 @@ import Footer from "../components/Footer.vue";
 import SkillPill from "../components/SkillPill";
 import M from "materialize-css/dist/js/materialize.min.js";
 import Project from "../components/Project";
+//import image0 from "../img/architect.svg"
 //const Project = () => ({
 //component: import("../components/Project"),
 // loading: LoadingComponent,
@@ -158,7 +159,7 @@ export default {
   name: "Home",
   data() {
     return {
-      day: false,
+      image0: "image0",
     };
   },
   components: {

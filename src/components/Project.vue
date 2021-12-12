@@ -5,14 +5,14 @@
         <img
           v-lazyload
           class="projects-img-sm"
-          data-img-url="/assets/pece.jpg"
+          data-img-url="/img/pece.jpg"
           alt="work"
       /></a>
       <a style="display: flex" href="#"
         ><img
           v-lazyload
           class="projects-img-sm"
-          data-img-url="/assets/pece.jpg"
+          data-img-url="/img/pece.jpg"
           alt="work"
       /></a>
     </div>
@@ -21,7 +21,7 @@
         <img
           v-lazyload
           class="projects-img-big"
-          data-img-url="/assets/pop.jpg"
+          data-img-url="/img/pop.jpg"
           alt="work"
       /></a>
     </div>
@@ -32,7 +32,7 @@
         <img
           v-lazyload
           class="projects-img-big"
-          data-img-url="/assets/pop.jpg"
+          data-img-url="/img/pop.jpg"
           alt="work"
       /></a>
     </div>
@@ -41,14 +41,14 @@
         <img
           v-lazyload
           class="projects-img-sm"
-          data-img-url="/assets/pece.jpg"
+          data-img-url="/img/pece.jpg"
           alt="work"
       /></a>
       <a style="display: flex" href="#"
         ><img
           v-lazyload
           class="projects-img-sm"
-          data-img-url="/assets/pece.jpg"
+          data-img-url="/img/pece.jpg"
           alt="work"
       /></a>
     </div>
