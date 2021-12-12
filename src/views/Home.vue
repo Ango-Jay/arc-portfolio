@@ -18,7 +18,7 @@
                 margin-right: 0.5rem;
                 text-shadow: 1px 1px 2px #0f0f0f;
               "
-              data-img-url="/assets/col1.svg"
+              data-img-url="/img/col1.svg"
           /></span>
           <h3 class="hero-title-text-sub">Architect</h3>
         </div>
