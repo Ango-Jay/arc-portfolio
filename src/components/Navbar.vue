@@ -32,7 +32,7 @@
           ><span
             ><img
               style="width: 15px; height: 15px; margin-right: 0.5rem"
-              src="/assets/home.svg" /></span
+              src="/img/home.svg" /></span
           >Home</a
         >
       </li>
@@ -41,7 +41,7 @@
           ><span
             ><img
               style="width: 15px; height: 15px; margin-right: 0.5rem"
-              src="/assets/a6.svg" /></span
+              src="/img/a6.svg" /></span
           >About</a
         >
       </li>
@@ -50,7 +50,7 @@
           ><span
             ><img
               style="width: 15px; height: 15px; margin-right: 0.5rem"
-              src="/assets/a.svg" /></span
+              src="/img/a.svg" /></span
           >Project</a
         >
       </li>
@@ -69,15 +69,9 @@
   </div>
 </template>
 <script>
-import M from "materialize-css/dist/js/materialize.min.js";
+
 export default {
   name: "NavBar",
-  methods: {
-    closeSideNav() {
-      let instance, elem;
-      instance = M.Sidenav.getInstance(elem);
-      return instance.close();
-    },
-  },
+ 
 };
 </script>
