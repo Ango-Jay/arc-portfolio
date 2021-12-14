@@ -4,7 +4,7 @@ html {
 }
 .loaded{
   visibility: hidden;
-  animation: fade-in-load 3s ease 0s 1 normal forwards;
+  animation: fade-in-load 5s ease 0s 1 normal forwards;
 }
 @keyframes fade-in-load{
   0%{opacity: 0; visibility: visible;}
