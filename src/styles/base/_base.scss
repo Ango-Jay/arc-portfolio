@@ -2,4 +2,12 @@ html {
   font-size: 62.5%;
   text-align: center;
 }
-
+.loaded{
+  visibility: hidden;
+  animation: fade-in-load 3s ease 0s 1 normal forwards;
+}
+@keyframes fade-in-load{
+  0%{opacity: 0; visibility: visible;}
+  100%{
+    opacity: 1; visibility: visible;
+  }}

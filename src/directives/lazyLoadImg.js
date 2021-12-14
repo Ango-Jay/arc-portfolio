@@ -5,8 +5,9 @@ export default {
       //  (el) => el.nodeName === "IMG"
       // );
       if (imageElement) {
-        imageElement.addEventListener("load", () => {
-          setTimeout(() => el.classList.add("loaded"), 100);
+        imageElement.addEventListener("loaded", () => {
+          //setTimeout(() => el.classList.add("loaded"), 100);
+          el.classList.add("loaded");
         });
         imageElement.addEventListener("error", () => console.log("error"));
         imageElement.src = imageElement.dataset.imgUrl;
